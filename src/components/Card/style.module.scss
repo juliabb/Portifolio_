@@ -1,0 +1,40 @@
+.containerCard{
+    margin: var(--margin-medium);
+    border: 1px solid #dadada;
+    max-width: 360px;
+    background-color: var(--gray-light);
+}
+
+.containerImage{
+
+}
+
+.image{
+    max-width: 100%;
+    height: auto;
+    max-height: 200px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.title{
+    color: var(--purple-title);
+    padding: 10px;
+}
+
+.text{
+    color: var(--black);
+    padding: 20px 10px;
+}
+
+.containerLink{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.link{
+    color: var(--purple-title);
+   padding: 10px;
+}
