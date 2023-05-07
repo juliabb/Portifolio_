@@ -1,5 +1,5 @@
 import Head from "next/head";
-import styles from "@styles/home.module.css";
+import styles from '@styles/home.module.css'
 import { Card } from "../components/Card/Card";
 import { Banner } from "@components/Banner/Banner";
 import { Projects } from "@constants/Projects";
