@@ -16,7 +16,7 @@ export const Projects = [
   {
     image: Comparador,
     title: "Comparador de cursos",
-    description:
+    text:
       "Projeto desenvolvido durante o Talent Fest Brasil - Laboratória SAP007, cumprindo o desafio da empresa Pravaler.",
     link: "https://pravaler-comparador.netlify.app/",
     github: "https://github.com/juliabb/TalentFest-Pravaler",
@@ -24,7 +24,7 @@ export const Projects = [
   {
     image: Social,
     title: "Social network - Mirame",
-    description:
+    text:
       "Mirame é o terceiro projeto do bootcamp da Laboratoria. Uma rede social para apaixonados por filmes e séries, um lugar para compartilhar resenhas/reviews, dicas e comentar sobre os últimos lançamentos.",
     link: "https://juliabb.github.io/SAP007-social-network/",
     github: "https://github.com/juliabb/SAP007-social-network",
@@ -32,7 +32,7 @@ export const Projects = [
   {
     image: Trunfo,
     title: "Super trunfo LOL",
-    description:
+    text:
       "O desafio consiste em criar o jogo de cartas super trunfo, que coloca duas cartas diferentes com atributos para batalhar, dependendo do valor do atributo, vence a carta que tiver o maior valor.",
     link: "https://juliabb.github.io/super-trunfo-lol/",
     github: "https://github.com/juliabb/super-trunfo-lol",
@@ -40,7 +40,7 @@ export const Projects = [
   {
     image: RickMorty,
     title: "Data Lovers - Rick and Morty",
-    description:
+    text:
       "Segundo projeto do bootcamp da Laboratoria, uma página destinada aos fãs da série Rick and Morty que gostariam de saber mais sobre os personagens.",
     link: "https://juliabb.github.io/SAP007-data-lovers/",
     github: "https://github.com/juliabb/SAP007-data-lovers",
@@ -48,7 +48,7 @@ export const Projects = [
   {
     image: Cifra,
     title: "Cifra de César - M3ns4agem S3cret4",
-    description:
+    text:
       "Primeiro projeto do Bootcamp da Laboratoria - TURMA SAP007. Cifra de Cesar/ Cipher",
     link: "https://github.com/juliabb/SAP007-cipher",
     github: "https://github.com/juliabb/SAP007-cipher",
@@ -56,15 +56,15 @@ export const Projects = [
   {
     image: Adog,
     title: "Instituição Adog",
-    description:
+    text:
       "Adog é uma instituição que incentiva a adoção de cães e gatos na cidade de São Paulo. Os cães e gatos são resgatados, recebendo alimentação e cuidado por veterinários e depois são colocados a disposição para adoção. *Página fictícia*",
-    link: "https://github.com/juliabb/adog",
+    link: "https://juliabb.github.io/adog/",
     github: "https://github.com/juliabb/adog",
   },
   {
     image: Vendas,
     title: "VendasBaldez ",
-    description:
+    text:
       "VendasBaldez foi desenvolvido no NLW. VendasBaldez é uma página institucional no formato One Page.",
     link: "https://juliabb.github.io/vendasbaldez/",
     github: "https://github.com/juliabb/vendasbaldez",
@@ -73,7 +73,7 @@ export const Projects = [
   {
     image: Instagram,
     title: "Projeto Instagram",
-    description:
+    text:
       "Projeto realizado nos dias 02 a 05 de Agosto de 2021. Com Kenzie Academy Brasil.",
     link: "https://juliabb.github.io/projeto-Instagram/",
     github: "https://github.com/juliabb/projeto-Instagram",
@@ -81,7 +81,7 @@ export const Projects = [
   {
     image: FlexTurismo,
     title: "Flex Turismo",
-    description:
+    text:
       "Flex Turismo é um projeto realizado no curso de Flexbox da Digital Innovation One.",
     link: "https://juliabb.github.io/flex-turismos/",
     github: "https://github.com/juliabb/flex-turismos",
@@ -89,7 +89,7 @@ export const Projects = [
   {
     image: Kobe,
     title: "Kobe Bryant",
-    description:
+    text:
       "Enquanto estudava edição de vídeos resolvi juntar um pouco de tudo, um site simples contando um pouco sobre um dos maiores jogadores de NBA de todos os tempos.",
     link: "https://juliabb.github.io/kobe-bryant/",
     github: "https://github.com/juliabb/kobe-bryant",
@@ -97,7 +97,7 @@ export const Projects = [
   {
     image: Twitter,
     title: "Projeto Twitter",
-    description:
+    text:
       "Projeto realizado na Maratona do Zero ao Código - 3ª Edição da Kenzie Academy Brasil no dia 28 de agosto de 2021.",
     link: "https://juliabb.github.io/projeto-twitter/",
     github: "https://github.com/juliabb/projeto-twitter",
@@ -105,7 +105,7 @@ export const Projects = [
   {
     image: ZumbiDev,
     title: "ZumbiDev Viagens",
-    description:
+    text:
       "ZumbiDev Viagens foi desenvolvido como trabalho final do curso Capacitação Desenvolvedor Web promovido pela Universidade Zumbi dos Palmares em parceria com a Brasscom, com apoio da Mais1Code",
     link: "https://pliniki.github.io/ZumbiDevViagens/",
     github: "https://github.com/juliabb/ZumbiDevViagens",

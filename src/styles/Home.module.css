@@ -1,26 +1,30 @@
 .main {
+  padding: 24px;
+}
+
+.containerTitle {
+  margin-top: 32px;
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.containerSkills {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
-  min-height: 100vh;
+  gap: 24px;
+  margin: 24px auto;
 }
 
-@keyframes rotate {
-  from {
-    transform: rotate(360deg);
-  }
-  to {
-    transform: rotate(0deg);
-  }
-}
-
-.containerTitle{
-  width: 100%;
-}
-
-.title{
-  text-align: left;
-  color: var(--purple-light);
+.containerContact{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: center;
 }

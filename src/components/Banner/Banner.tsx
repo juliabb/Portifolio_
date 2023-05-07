@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./style.module.scss";
-import classnames from 'classnames'
+import classnames from "classnames";
 
 export const Banner = () => {
   return (
@@ -13,21 +13,16 @@ export const Banner = () => {
         />
 
         <div className={style.containerText}>
-          <h1 className={classnames(style.title, style.textOne)}>Julia Benedicto</h1>
-   
-          <p className={style.role}> &raquo;	 Software Engineer Jr 	&laquo;</p>
-          <p className={classnames(style.text, style.textOne)}>
-            Atualmente como Software Engineer Jr, construindo e evoluindo
-            produtos na área educacional, atuando com JavaScript, React,
-            TypeScript, Next.Js, GraphQL da Apollo.{" "}
-          </p>
+          <h1 className={style.title}>
+            Olá, eu sou a <span  className={style.name}>Julia Benedicto</span>
+          </h1>
 
-          <p className={style.text}>
-            Analista e desenvolvedora de sistemas pelo Instituto Educacional
-            Anhanguera, participei da 7ª geração do bootcamp de especialização
-            Front-end da Laboratória, onde também desenvolvi minhas competências
-            técnicas e socioemocionais.
-          </p>
+          <p className={style.role}> <span className={style.arrow}>&raquo;</span> Software Engineer Jr <span className={style.arrow}> &laquo;</span></p>
+
+          <div className={style.buttons}>
+            <a className={classnames(style.cv, style.buttonsAction)} href="https://drive.google.com/file/d/1_A7SuWDwsNBkzbeE_m99mCOv24eRbtgW/view?usp=share_link" target="_blank">Ver CV</a>
+            <a className={classnames(style.contato, style.buttonsAction)} href="mailto:juliabenedicto@hotmail.com" target="_blank">Entrar em contato</a>
+          </div>
         </div>
       </div>
     </>

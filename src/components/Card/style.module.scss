@@ -1,40 +1,48 @@
-.containerCard{
-    margin: var(--margin-medium);
-    border: 1px solid #dadada;
-    max-width: 360px;
-    background-color: var(--gray-light);
+.containerCard {
+  margin: 24px;
+  border-radius: 5px;
+  max-width: 360px;
+  width: auto;
+  background-color: #161616;
 }
 
-.containerImage{
-
+.containerImage {
+  object-fit: contain;
 }
 
-.image{
-    max-width: 100%;
-    height: auto;
-    max-height: 200px;
-    overflow: hidden;
-    object-fit: cover;
+.image {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  overflow: hidden;
+  border: 1px solid #161616;
+  border-radius: 5px;
 }
 
-.title{
-    color: var(--purple-title);
-    padding: 10px;
+.title {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 16px;
 }
 
-.text{
-    color: var(--black);
-    padding: 20px 10px;
+.containerLink {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.containerLink{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.link {
+ color: #AB96FF;
+  font-family: "Hind", sans-serif;
+  font-weight: 400;
+  padding: 16px;
 }
 
-.link{
-    color: var(--purple-title);
-   padding: 10px;
+.icon{
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
 }
