@@ -1,5 +1,5 @@
 import Head from "next/head";
-import styles from '@styles/home.module.css'
+import style from '@styles/style.module.css'
 import { Card } from "../components/Card/Card";
 import { Banner } from "@components/Banner/Banner";
 import { Projects } from "@constants/Projects";
@@ -19,26 +19,26 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />
       </Head>
-      <main className={styles.main}>
+      <main className={style.main}>
         <Banner />
 
-        <div className={styles.containerTitle}>
-          <h2 className={styles.title}>Sobre mim &#128512;</h2>
+        <div className={style.containerTitle}>
+          <h2 className={style.title}>Sobre mim &#128512;</h2>
         </div>
         <About />
 
-        <div className={styles.containerTitle}>
-          <h2 className={styles.title}>Habilidades &#128129;</h2>
+        <div className={style.containerTitle}>
+          <h2 className={style.title}>Habilidades &#128129;</h2>
         </div>
 
-        <div className={styles.containerSkills}>
+        <div className={style.containerSkills}>
           {Skills.map(({ name, icon }) => (
             <MiniCard key={name} icon={icon} name={name} />
           ))}
         </div>
 
-        <div className={styles.containerTitle}>
-          <h2 className={styles.title}>Destaques &#11088;</h2>
+        <div className={style.containerTitle}>
+          <h2 className={style.title}>Destaques &#11088;</h2>
         </div>
 
         <div>
@@ -53,8 +53,8 @@ export default function Home() {
           ))}
         </div>
 
-        <div className={styles.containerTitle}>
-          <h2 className={styles.title}>Projetos &#128133;</h2>
+        <div className={style.containerTitle}>
+          <h2 className={style.title}>Projetos &#128133;</h2>
         </div>
 
         <div>
@@ -70,11 +70,11 @@ export default function Home() {
           ))}
         </div>
 
-        <div className={styles.containerTitle}>
-          <h2 className={styles.title}>Contatos &#128222;</h2>
+        <div className={style.containerTitle}>
+          <h2 className={style.title}>Contatos &#128222;</h2>
         </div>
 
-        <div className={styles.containerContact}>
+        <div className={style.containerContact}>
           {Info.map(({ link, icon, type, text }) => (
           <Contact key={text} icon={icon} link={link} text={text} type={type} />
           ))}
