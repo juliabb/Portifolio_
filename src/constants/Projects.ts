@@ -54,6 +54,14 @@ export const Projects = [
     github: "https://github.com/juliabb/SAP007-cipher",
   },
   {
+    image: ZumbiDev,
+    title: "ZumbiDev Viagens",
+    text:
+      "ZumbiDev Viagens foi desenvolvido como trabalho final do curso Capacitação Desenvolvedor Web promovido pela Universidade Zumbi dos Palmares em parceria com a Brasscom, com apoio da Mais1Code",
+    link: "https://pliniki.github.io/ZumbiDevViagens/",
+    github: "https://github.com/juliabb/ZumbiDevViagens",
+  },
+  {
     image: Adog,
     title: "Instituição Adog",
     text:
@@ -102,12 +110,5 @@ export const Projects = [
     link: "https://juliabb.github.io/projeto-twitter/",
     github: "https://github.com/juliabb/projeto-twitter",
   },
-  {
-    image: ZumbiDev,
-    title: "ZumbiDev Viagens",
-    text:
-      "ZumbiDev Viagens foi desenvolvido como trabalho final do curso Capacitação Desenvolvedor Web promovido pela Universidade Zumbi dos Palmares em parceria com a Brasscom, com apoio da Mais1Code",
-    link: "https://pliniki.github.io/ZumbiDevViagens/",
-    github: "https://github.com/juliabb/ZumbiDevViagens",
-  },
+  
 ];
