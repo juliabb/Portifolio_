@@ -2,7 +2,7 @@ import React from "react";
 import style from "./style.module.scss";
 import classnames from "classnames";
 import Image from "next/image";
-import Julia from '@assets/img/juliabenedicto.jpg'
+import Julia from "@assets/img/juliabenedicto.webp"
 
 export const Banner = () => {
   return (
