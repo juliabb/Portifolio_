@@ -1,28 +1,29 @@
 import React from "react";
 import style from "./style.module.scss";
 import classnames from "classnames";
-import Logo from '@assets/img/logo.png'
+import Logo from "@assets/img/logo.png";
 import Image from "next/image";
 
 export const Header = () => {
+  
   return (
     <>
-    <div>
-      <nav>
-      <Image src={Logo} alt="Logo" />
+      <div className={style.container}>
+        <nav className={style.containerNav}>
+          <Image src={Logo} alt="Logo" />
 
-      <div>
-<ul>
-  <li>Início</li>
-  <li>Sobre</li>
-  <li>Habilidades</li>
-  <li>Destaques</li>
-  <li>Projetos</li>
-  <li>Contatos</li>
-</ul>
+          <div  className={style.containerTitle}>
+            <ul className={style.list}>
+              <li className={style.title}><a href="#home">Início</a></li>
+              <li className={style.title}><a href="#about">Sobre</a></li>
+              <li className={style.title}><a href="#skills">Habilidades</a></li>
+              <li className={style.title}><a href="#emphasis">Destaques</a></li>
+              <li className={style.title}><a href="#contact">Contatos</a></li>
+              <li className={style.title}><a href="#projects">Projetos</a></li>
+            </ul>
+          </div>
+        </nav>
       </div>
-      </nav>      
-    </div>
     </>
   );
 };

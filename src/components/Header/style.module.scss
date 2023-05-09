@@ -1,0 +1,32 @@
+.container{
+    width: 100%;
+    background-color: #fffcfc;
+    position: fixed;
+    z-index: 4;
+    display: block;
+    top: 0;
+    width: 100%;
+    min-height: 82px;
+    box-shadow: 0 4px 16px rgba(0,0,0,.05);
+
+}
+
+.containerNav{    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: space-around;
+ 
+}
+
+.title{
+    margin: 10px;
+}

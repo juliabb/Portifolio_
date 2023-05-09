@@ -9,6 +9,7 @@ import { MiniCard } from "@components/MiniCard/MiniCard";
 import { About } from "@components/About/About";
 import { Contact } from "@components/Contact/Contact";
 import { Info } from "@constants/Info";
+import { Header } from "@components/Header/Header";
 
 export default function Home() {
   return (
@@ -20,14 +21,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <main className={style.main}>
+        <div id="home">
         <Banner />
+        </div>
 
-        <div className={style.containerTitle}>
+        <div id="about" className={style.containerTitle}>
           <h2 className={style.title}>Sobre mim &#128512;</h2>
         </div>
         <About />
 
-        <div className={style.containerTitle}>
+        <div id="skills" className={style.containerTitle}>
           <h2 className={style.title}>Habilidades &#128129;</h2>
         </div>
 
@@ -37,7 +40,7 @@ export default function Home() {
           ))}
         </div>
 
-        <div className={style.containerTitle}>
+        <div id="emphasis" className={style.containerTitle}>
           <h2 className={style.title}>Destaques &#11088;</h2>
         </div>
 
@@ -53,7 +56,18 @@ export default function Home() {
           ))}
         </div>
 
-        <div className={style.containerTitle}>
+
+        <div id="contact" className={style.containerTitle}>
+          <h2 className={style.title}>Contatos &#128222;</h2>
+        </div>
+
+        <div className={style.containerContact}>
+          {Info.map(({ link, icon, type, text }) => (
+          <Contact key={text} icon={icon} link={link} text={text} type={type} />
+          ))}
+        </div>
+
+        <div id="projects" className={style.containerTitle}>
           <h2 className={style.title}>Projetos &#128133;</h2>
         </div>
 
@@ -67,16 +81,6 @@ export default function Home() {
               github={github}
               link={link}
             />
-          ))}
-        </div>
-
-        <div className={style.containerTitle}>
-          <h2 className={style.title}>Contatos &#128222;</h2>
-        </div>
-
-        <div className={style.containerContact}>
-          {Info.map(({ link, icon, type, text }) => (
-          <Contact key={text} icon={icon} link={link} text={text} type={type} />
           ))}
         </div>
       </main>
