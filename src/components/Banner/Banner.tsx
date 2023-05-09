@@ -1,14 +1,16 @@
 import React from "react";
 import style from "./style.module.scss";
 import classnames from "classnames";
+import Image from "next/image";
+import Julia from '@assets/img/juliabenedicto.jpg'
 
 export const Banner = () => {
   return (
     <>
       <div className={style.container}>
-        <img
-          className={style.image}
-          src="https://avatars.githubusercontent.com/u/68789655?v=4"
+        <Image
+          className={style.image} width={460} height={460}
+          src={Julia}
           alt="Imagem de Julia Benedicto"
         />
 

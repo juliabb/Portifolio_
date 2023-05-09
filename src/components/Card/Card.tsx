@@ -18,7 +18,7 @@ export const Card = ({ image, title, text, github, link }: Card) => {
           <Image className={style.image} src={image} alt="" />
         </div>
         <div className={style.containerText}>
-        <h2 className={style.title}>{title}</h2>
+        <p className={style.title}>{title}</p>
 
         <div className={style.containerLink}>
           <a className={style.link} href={github} target="_blank">

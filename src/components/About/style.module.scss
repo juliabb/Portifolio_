@@ -1,3 +1,10 @@
+.container{
+  @media(min-width: 1024px){
+    max-width: 1400px;
+    padding: 0 32px;
+  }
+}
+
 .text{
   text-align: center;
   margin-bottom: 16px;
@@ -10,12 +17,11 @@
 
   @media(min-width: 1024px){
     font-size: 16px;
-    padding: 0 24px;
+    max-width: 1400px;
+    margin: auto;
   }
 
   @media(min-width: 2560px){
-    font-size: 24px;
-    max-width: 1440px;
-    margin: auto;
+    font-size: 24px; 
   }
 }

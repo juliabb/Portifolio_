@@ -3,14 +3,25 @@
 }
 
 .containerBanner{
-  @media(min-width: 2560px){
    max-width: 1440px;
    margin: auto;
+}
+
+.containerAbout{
+  @media(min-width: 1024px){
+    max-width: 1440px;
+    margin: auto;
   }
 }
 
 .containerTitle {
   margin-top: 32px;
+  margin-bottom: 5em;
+
+  @media(min-width: 1440px){
+    margin-bottom: 7em;
+  }
+
 }
 
 .title {
@@ -46,8 +57,9 @@
     gap: 2em;
   }
 
-  @media(min-width: 2560px){
+  @media(min-width: 1024px){
     max-width: 1440px;
+    margin: auto;
   }
 }
 
@@ -59,15 +71,12 @@
 
   @media(min-width: 1024px){
     justify-content: space-evenly;
+    max-width: 1440px;
+    margin: auto;
   }
 
   @media(min-width: 1440px){
     justify-content: space-evenly;
-  }
-
-  @media(min-width: 2560px){
-    max-width: 1440px;
-    margin: auto;
   }
 }
 
@@ -80,7 +89,7 @@
     justify-content: center;
   }
 
-  @media(min-width: 2560px){
+  @media(min-width: 1024px){
     max-width: 1440px;
     margin: auto;
   }
