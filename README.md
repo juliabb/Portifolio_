@@ -10,15 +10,6 @@
 
 Projeto feito no intuito de me apresentar, como desenvolvedora front-end.
 
-## 🤯 O site é composto por:
-
-- **Início:** Minha apresentação;
-- **Sobre mim:** Falo um pouco sobre minha trajetória;
-- **Habilidades:** As tecnologias que tenho conhecimento;
-- **Destaques:** Alguns projetos recentes que fiz;
-- **Contato:** Meios para contato;
-- **Projetos:** Lista com todos os projetos (que podem ser acessados/testados).
-
 ## 👩‍💻 Tecnologias utilizadas:
 
 O site **ainda está em desenvolvimento**, pois estou em constante aprendizado e melhorando o projeto com o tempo. Mas até aqui utilizei:
@@ -41,7 +32,7 @@ O site **ainda está em desenvolvimento**, pois estou em constante aprendizado e
       <img src="https://avatars.githubusercontent.com/u/68789655?v=4" width="100px" />
     </td>
     <td>
-      Feito por <a href="https://github.com/juliabb">Julia Benedicto.</a> 👩
+      Feito por <a href="https://www.linkedin.com/in/julia-benedicto/">Julia Benedicto.</a> 👩
     </td>
   </tr>
 </table>
@@ -51,7 +42,7 @@ O site **ainda está em desenvolvimento**, pois estou em constante aprendizado e
 ## 📅 Atualizações futuras
 - Adição do Header
 - Footer
-- Toggle para mudar o tema (claro e escuro)
+- Toggle para mudar o tema (claro/escuro)
 
 Caso encontre algum bug ou tenha uma sugestão entre em contato 🙂 Toda ajuda é bem vinda
 
