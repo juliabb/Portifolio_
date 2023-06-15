@@ -22,7 +22,7 @@ export const Banner = () => {
           <p className={style.role}> <span className={style.arrow}>&raquo;</span> Software Engineer Jr <span className={style.arrow}> &laquo;</span></p>
 
           <div className={style.buttons}>
-            <a className={classnames(style.cv, style.buttonsAction)} href="https://drive.google.com/file/d/1_A7SuWDwsNBkzbeE_m99mCOv24eRbtgW/view?usp=share_link" target="_blank">Ver CV</a>
+            <a className={classnames(style.cv, style.buttonsAction)} href="https://drive.google.com/file/d/1K1jNbW87CSq_deWAN8K9rDm8M1s_0UVQ/view?usp=drive_link" target="_blank">Ver CV</a>
             <a className={classnames(style.contato, style.buttonsAction)} href="mailto:juliabenedicto@hotmail.com" target="_blank">Entrar em contato</a>
           </div>
         </div>
