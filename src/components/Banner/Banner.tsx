@@ -2,14 +2,14 @@ import React from "react";
 import style from "./style.module.scss";
 import classnames from "classnames";
 import Image from "next/image";
-import Julia from "@assets/img/juliabenedicto.webp"
+import Julia from "@assets/img/juliabenedicto.jpg"
 
 export const Banner = () => {
   return (
     <>
       <div className={style.container}>
         <Image
-          className={style.image} width={460} height={460}
+          className={style.image} 
           src={Julia}
           alt="Imagem de Julia Benedicto"
         />
@@ -22,7 +22,7 @@ export const Banner = () => {
           <p className={style.role}> <span className={style.arrow}>&raquo;</span> Software Engineer Jr <span className={style.arrow}> &laquo;</span></p>
 
           <div className={style.buttons}>
-            <a className={classnames(style.cv, style.buttonsAction)} href="https://drive.google.com/file/d/1K1jNbW87CSq_deWAN8K9rDm8M1s_0UVQ/view?usp=drive_link" target="_blank">Ver CV</a>
+            <a className={classnames(style.cv, style.buttonsAction)} href="https://drive.google.com/file/d/1MKt469LVr_etJWXjSF3G-Lo32qrd88yu/view?usp=sharing" target="_blank">Ver CV</a>
             <a className={classnames(style.contato, style.buttonsAction)} href="mailto:juliabenedicto@hotmail.com" target="_blank">Entrar em contato</a>
           </div>
         </div>
