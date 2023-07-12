@@ -28,7 +28,7 @@ export const Highlight = [
     title: "Cifra de César - M3ns4agem S3cret4",
     text:
       "Primeiro projeto do Bootcamp da Laboratoria - TURMA SAP007. Cifra de Cesar/ Cipher",
-    link: "https://github.com/juliabb/SAP007-cipher",
+    link: "https://juliabb.github.io/SAP007-cipher/",
     github: "https://github.com/juliabb/SAP007-cipher",
   },
   {
@@ -44,7 +44,7 @@ export const Highlight = [
     title: "Instituição Adog",
     text:
       "Adog é uma instituição que incentiva a adoção de cães e gatos na cidade de São Paulo. Os cães e gatos são resgatados, recebendo alimentação e cuidado por veterinários e depois são colocados a disposição para adoção. *Página fictícia*",
-    link: "https://github.com/juliabb/adog",
+    link: "https://juliabb.github.io/adog/",
     github: "https://github.com/juliabb/adog",
   },
   {

@@ -50,17 +50,17 @@ export const Projects = [
     title: "Cifra de César - M3ns4agem S3cret4",
     text:
       "Primeiro projeto do Bootcamp da Laboratoria - TURMA SAP007. Cifra de Cesar/ Cipher",
-    link: "https://github.com/juliabb/SAP007-cipher",
+    link: "https://juliabb.github.io/SAP007-cipher/",
     github: "https://github.com/juliabb/SAP007-cipher",
   },
-  {
-    image: ZumbiDev,
-    title: "ZumbiDev Viagens",
-    text:
-      "ZumbiDev Viagens foi desenvolvido como trabalho final do curso Capacitação Desenvolvedor Web promovido pela Universidade Zumbi dos Palmares em parceria com a Brasscom, com apoio da Mais1Code",
-    link: "https://pliniki.github.io/ZumbiDevViagens/",
-    github: "https://github.com/juliabb/ZumbiDevViagens",
-  },
+  // {
+  //   image: ZumbiDev,
+  //   title: "ZumbiDev Viagens",
+  //   text:
+  //     "ZumbiDev Viagens foi desenvolvido como trabalho final do curso Capacitação Desenvolvedor Web promovido pela Universidade Zumbi dos Palmares em parceria com a Brasscom, com apoio da Mais1Code",
+  //   link: "https://pliniki.github.io/ZumbiDevViagens/",
+  //   github: "https://github.com/juliabb/ZumbiDevViagens",
+  // },
   {
     image: Adog,
     title: "Instituição Adog",
